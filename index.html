@@ -61,7 +61,15 @@
         <h2>Compressor Station Historical Table</h2>
         <h5>TETCO Gas Pipeline past 30 days:</h5>
         <!-- The div where we will inject our map -->
-        <div id="table"></div>
+          <table class="table table-striped">
+            <thead>
+                <tr>
+                  <th>Loc#</th><th>Name</th><th>State</th><th>County</th><th>Zone</th><th>Type</th><th>Design Cap</th><th>8/1</th><th>8/2</th><th>8/3</th><th>8/4</th><th>8/5</th><th>8/6</th><th>8/7</th><th>8/8</th><th>8/9</th><th>8/10</th><th>8/11</th><th>8/12</th><th>8/13</th><th>8/14</th><th>8/15</th><th>8/16</th><th>8/17</th><th>8/18</th><th>8/19</th><th>8/20</th><th>8/21</th><th>8/22</th><th>8/23</th><th>8/24</th><th>8/25</th><th>8/26</th><th>8/27</th><th>8/28</th><th>8/29</th><th>8/30</th><th>8/31</th>
+                </tr>  
+                </thead>
+            <tbody></tbody>
+        </table>
+        
         <hr>
         <h2>Compressor Station Plot</h2>
         <h5>Dropdown of a certain category</h5>
@@ -75,9 +83,12 @@
   <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
   integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
   crossorigin=""></script>
+  <!-- D3 -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
   <!-- API key -->
   <script type="text/javascript" src="config.js"></script>
   <!-- Our JS -->
   <script type="text/javascript" src="logic.js"></script>
+  <script type="text/javascript" src="tableLogic.js"></script>
 </body>
 </html>
