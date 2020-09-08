@@ -10,8 +10,9 @@ function createFeatures(gasData) {
   // Define a function we want to run once for each feature in the features array
   // Give each feature a popup describing the place and time of the Gas Compressor
   function onEachFeature(feature, layer) {
-    layer.bindPopup("<h3>" + feature.properties.CITY, +
-  "</h3><hr><p>" + feature.properties.STATE + "</p>");
+    layer.bindPopup("<h3>" + feature.properties.NAME +
+  "</h3><hr><p>"+ feature.properties.CITY+" , "  + feature.properties.STATE +
+  " , " +feature.properties.ZIP+ "</p>");
   }
   // Create a GeoJSON layer containing the features array on the GasData object
   // Run the onEachFeature function once for each piece of data in the array
