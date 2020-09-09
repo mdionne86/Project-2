@@ -40241,7 +40241,217 @@ var hotSettings = {
       numericFormat: {
         pattern: '0'
       }
-    }
+    },
+    {
+      data: '8/2/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/3/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/4/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/5/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/6/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/7/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/8/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/9/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/10/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/11/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/12/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/13/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/14/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/15/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/16/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/17/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/18/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/19/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/20/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/21/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/22/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/23/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/24/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/25/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/26/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/27/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/28/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/29/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/30/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
+    {
+      data: '8/31/2020',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0'
+      }
+    },
   ],
   stretchH: 'all',
   width: 805,
@@ -40258,8 +40468,38 @@ var hotSettings = {
     'Flow Dir',
     'Type',
     'Designed',
-    'Date'
-  ],
+    '8/1',
+    '8/2',
+    '8/3',
+    '8/4',
+    '8/5',
+    '8/6',
+    '8/7',
+    '8/8',
+    '8/9',
+    '8/10',
+    '8/11',
+    '8/12',
+    '8/13',
+    '8/14',
+    '8/15',
+    '8/16',
+    '8/17',
+    '8/18',
+    '8/19',
+    '8/20',
+    '8/21',
+    '8/22',
+    '8/23',
+    '8/24',
+    '8/25',
+    '8/26',
+    '8/27',
+    '8/28',
+    '8/29',
+    '8/30',
+    '8/31'
+    ],
   columnSorting: {
     indicator: true
   },
@@ -40273,3 +40513,5 @@ var hotSettings = {
   language: 'en-US'
 };
 var hot = new Handsontable(hotElement, hotSettings);
+
+
